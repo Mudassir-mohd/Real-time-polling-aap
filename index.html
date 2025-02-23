@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real-Time Polling App</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <div class="poll-container">
+      <h2>What is your favorite programming language?</h2>
+      <div class="poll-option">
+        JavaScript
+        <div>
+          <button class="plus-btn" onclick="vote('JavaScript')">+</button>
+          <button class="minus-btn" onclick="undoVote('JavaScript')">-</button>
+        </div>
+      </div>
+      <div class="poll-option">
+        Python
+        <div>
+          <button class="plus-btn" onclick="vote('Python')">+</button>
+          <button class="minus-btn" onclick="undoVote('Python')">-</button>
+        </div>
+      </div>
+      <div class="poll-option">
+        Java
+        <div>
+          <button class="plus-btn" onclick="vote('Java')">+</button>
+          <button class="minus-btn" onclick="undoVote('Java')">-</button>
+        </div>
+      </div>
+      <div class="poll-option">
+        C++
+        <div>
+          <button class="plus-btn" onclick="vote('C++')">+</button>
+          <button class="minus-btn" onclick="undoVote('C++')">-</button>
+        </div>
+      </div>
+      <h3>Live Results:</h3>
+      <div id="results"></div>
+    </div>
+  </body>
+</html>

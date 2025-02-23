@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+background-image: url("https://i.pinimg.com/736x/b8/4a/b9/b84ab9b1f6117b4c6347d56f2b969381.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.poll-container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+.poll-option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #f1f1f1;
+}
+
+.poll-option button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.plus-btn {
+  background: #4caf50;
+}
+.minus-btn {
+  background: #f44336;
+}
+.result-bar {
+  height: 20px;
+  border-radius: 5px;
+  margin-top: 5px;
+  transition: width 0.3s ease;
+}
